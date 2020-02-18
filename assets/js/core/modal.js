@@ -54,7 +54,7 @@
             formElement.on('submit', onFormSubmit, false);
         }
 
-        var autoFocusElement = document.querySelector('#modal-content input[autofocus]');
+        var autoFocusElement = document.querySelector('#modal-content *[autofocus]');
         if (autoFocusElement) {
             autoFocusElement.focus();
         }
