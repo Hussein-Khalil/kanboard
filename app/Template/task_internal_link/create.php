@@ -17,6 +17,7 @@
         $errors,
         array(
             'required',
+            'autofocus',
             'placeholder="'.t('Start to type task title...').'"',
             'title="'.t('Start to type task title...').'"',
             'data-dst-field="opposite_task_id"',
